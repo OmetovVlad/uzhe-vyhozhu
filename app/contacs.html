@@ -1,0 +1,85 @@
+//= include/header.html
+
+<div class="contacts-page content-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-3">
+				<div class="stick">
+					<div class="cut_list">
+						<div class="list">
+							<a href="/delivery.html">Доставка и возврат</a>
+							<a href="/payment.html">Способы оплаты</a>
+							<b>Контакты</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-9">
+				<div class="contacts_map">
+					<div>
+						<h4>Контакты</h4>
+						<div class="list">
+							<span>Адрес: г. Томск, ул. Гоголя, 58</span>
+							<span>Режим работы: вт–сб 12:00–19:00</span>
+							<span>Телефон: <a href="tel:+7 (800) 200-22-09">+7 (800) 200-22-09</a></span>
+						</div>
+					</div>
+					<div>
+						<script type="text/javascript">
+						    ymaps.ready(function () {
+						        var myMap = new ymaps.Map('YMapsID', {
+					                center: [56.47195313003943,84.96189945767206],
+					        		zoom: 17,
+					        		controls: []
+					            });
+					            
+					            myPlacemark1 = new ymaps.Placemark([56.47195313003943,84.96189945767206], {
+								    balloonContent: '<strong>UzheVyhozhu</strong><br/>шоу-рум женской одежды<br/></br>Гоголя 58,​ 2 этаж</br>Телефон: 8‒800‒200‒22‒09'
+								}, {
+								    preset: 'islands#darkGreenCircleDotIcon',
+								    iconColor: '#e00'
+								});
+					    
+						        myMap.geoObjects .add(myPlacemark1);
+						    });
+						</script>
+
+						<div id="YMapsID" class="map_block"></div>
+					</div>
+				</div>
+
+				<div class="contacts_list">
+					<div>
+						<h6>КЛИЕНТСКАЯ ПОДДЕРЖКА</h6>
+						<div class="list">
+							<span>пн-пт: 9:00-18:00 (по МСК)</span>
+							<span>сб-вс: 10:00-17:00 (по МСК)</span>
+							<span><a href="#">Онлайн-чат</a></span>
+							<span><a href="#">info@ushatava.com</a></span>
+							<span><a href="#">+7 (800) 350-55-32</a></span>
+							<span><a href="#">WhatsApp Message</a></span>
+						</div>
+					</div>
+
+					<div>
+						<h6>PR И МЕДИА</h6>
+						<div class="list">
+							<span>Оксана Павлишина</span>
+							<span><a href="#">oxanapavlishina@gmail.com</a></span>
+						</div>
+					</div>
+
+					<div>
+						<h6>КОНТЕНТ-ДИРЕКТОР</h6>
+						<div class="list">
+							<span>Дачи Зухбая</span>
+							<span><a href="#">photo@uzhevyhozhy.com</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+//= include/footer.html

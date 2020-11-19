@@ -1,0 +1,171 @@
+//= include/header.html
+
+<div class="goods-page content-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-2">
+				<div class="stick">
+					<a href="/catalog.html" class="back">
+						<i class="icon icon-a-arrow"></i>
+						<span>Назад</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-12 col-lg-10">
+				<div class="goods_info">
+
+					<div class="photo_list_mobile">
+						<div class="photo" style="background-image: url('../assets/img/photo-0.png')"></div>
+						<div class="photo" style="background-image: url('../assets/img/photo-1.png')"></div>
+						<div class="photo" style="background-image: url('../assets/img/photo-2.png')"></div>
+						<div class="photo" style="background-image: url('../assets/img/photo-3.png')"></div>
+					</div>
+					
+					<div class="photo_list">
+						<img src="../assets/img/photo-0.png" alt="">
+						<img src="../assets/img/photo-1.png" alt="">
+						<img src="../assets/img/photo-2.png" alt="">
+						<img src="../assets/img/photo-3.png" alt="">
+					</div>
+
+					<div class="info_text">
+						<h3>Базовый кроп-топ UV — Bretelle</h3>
+
+						<div class="price">
+							<!-- Текущая цена -->
+							<span>1 500 ₽</span>
+
+							<!-- Прошлая цена -->
+							<span><s>2 500 ₽</s></span>
+						</div>
+
+						<div class="descr">
+							<span>Плотный двухслойный топ, имеющий мягкую бельевую резинку снизу. Можно носить с любой стороны, как с лицевой стороны без боковой бирки, так и с изнанки, с вшитой фирменной биркой. Изделие выполнено из плотного кулира, самого высокого качества плетения. Лямки выполнены из эластичной шляпной резинки , благодаря чему принимает любую высоту и хорошо поддерживает грудь.</span>
+						</div>
+
+						<form action="">
+							<div class="param">
+								<div class="name"><span>Цвет: Черный</span></div>
+							</div>
+
+							<div class="param">
+								<div class="name"><span>Другие цвета:</span></div>
+
+								<div class="other_colors">
+									<a href="/goods.html" title="Название" style="background-image: url('../assets/img/photo-0.png')"></a>
+									<a href="/goods.html" title="Название" style="background-image: url('../assets/img/photo-1.png')"></a>
+								</div>
+							</div>
+
+							<div class="param">
+								<div class="name"><span>Размер</span></div>
+
+								<div class="list">
+									
+									<!-- Изначально выбран 1й размер -->
+									<label>
+										<input type="radio" name="size" checked>
+										<span>XS-S</span>
+									</label>
+
+									<label>
+										<input type="radio" name="size">
+										<span>M–L</span>
+									</label>
+
+									<!-- Пример не доступного размера -->
+									<label>
+										<input type="radio" name="size" disabled>
+										<span>OS</span>
+									</label>
+
+								</div>
+
+								<button class="button-no-style open-right-modal" data-id="size-table">
+									<span>Подобрать размер</span>
+								</button>
+							</div>
+
+							<div class="buttons_line">
+								<input type="hidden" name="item-id" value="1">
+								<button class="button-black"><span>В корзину</span></button>
+
+								<label class="add-favourite">
+									<input type="checkbox" name="favourite">
+									<div class="ico">
+										<i class="icon icon-a-favourite"></i>
+										<i class="icon icon-a-favourite-checked"></i>
+									</div>
+								</label>
+							</div>
+						</form>
+
+						<div class="dropdown_list">
+							<div class="dropdown">
+								<div class="head">
+									<span>Состав и уход</span>
+									<i class="icon icon-a-dropdown-arrow"></i>
+								</div>
+								<div class="content">
+									<p>95% хлопок, 5% эластан</p>
+									<p>Машинная стирка 30 градусов, рекомендуется использовать деликатный отжим.</p>
+								</div>
+							</div>
+
+							<div class="dropdown">
+								<div class="head">
+									<span>Характеристики</span>
+									<i class="icon icon-a-dropdown-arrow"></i>
+								</div>
+								<div class="content">
+									<p>95% хлопок, 5% эластан</p>
+									<p>Машинная стирка 30 градусов, рекомендуется использовать деликатный отжим.</p>
+								</div>
+							</div>
+
+							<div class="dropdown">
+								<div class="head">
+									<span>Параметры модели</span>
+									<i class="icon icon-a-dropdown-arrow"></i>
+								</div>
+								<div class="content">
+									<p>95% хлопок, 5% эластан</p>
+									<p>Машинная стирка 30 градусов, рекомендуется использовать деликатный отжим.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<div class="recommend">
+					<h3>Может заинтересовать</h3>
+
+					<div id="prev-slide">
+						<i class="icon icon-a-arrow"></i>
+					</div>
+					<div id="next-slide">
+						<i class="icon icon-a-arrow"></i>
+					</div>
+
+					<div class="recommend-slider">
+						//= include/goods_card.html
+						//= include/goods_card.html
+						//= include/goods_card.html
+						//= include/goods_card.html
+						//= include/goods_card.html
+						//= include/goods_card.html
+						//= include/goods_card.html
+						//= include/goods_card.html
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+//= include/footer.html

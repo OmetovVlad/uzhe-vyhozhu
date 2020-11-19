@@ -1,0 +1,312 @@
+//= include/header.html
+
+<div class="cart-page content-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-2">
+				<div class="stick">
+					<a href="/catalog.html" class="back">
+						<i class="icon icon-a-arrow"></i>
+						<span>Назад</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-12 col-lg-10">
+				<div class="row">
+					<div class="col-12 col-md-6 col-xl-6">
+						<h4>Оформление заказа</h4>
+
+						<div class="form">
+							<form action="">
+
+								<div class="param">
+									<div class="name"><h6>1. Способ доставки</h6></div>
+
+									<div class="list">
+										
+										<label>
+											<input type="radio" name="delivery" checked>
+											<span>Курьерская доставка 500 ₽<span>(бесплатно от 15 000 ₽)</span></span>
+										</label>
+
+										<label>
+											<input type="radio" name="delivery">
+											<span>Пункт выдачи заказов 250 ₽<span>(бесплатно от 15 000 ₽)</span></span>
+										</label>
+
+										<label>
+											<input type="radio" name="delivery">
+											<span>Посылка Почтой России<span>(бесплатно)</span></span>
+										</label>
+
+										<label>
+											<input type="radio" name="delivery" disabled>
+											<span>ЕМС 500 ₽<span>(бесплатно от 15 000 ₽)</span></span>
+										</label>
+
+									</div>
+								</div>
+
+								<div class="param">
+									<div class="name"><h6>2. Контактные данные</h6></div>
+
+									<div class="input-list">
+										
+										<div class="input-2-col">
+											<div>
+												<input type="text" placeholder="Имя" class="not-valid not-red" data-regexp="^[а-яё]{2,30}|[a-z]{2,30}$" required>
+											</div>
+											<div>
+												<input type="text" placeholder="Телефон" class="not-valid not-red" data-regexp="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required>
+											</div>
+										</div>
+
+										<input type="text" placeholder="E-mail" class="not-valid not-red" data-regexp="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required>
+
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" name="reg">
+												<span class="checkbox-icon">
+													<i class="icon icon-a-checkbox"></i>
+													<i class="icon icon-a-checkbox-checked checked"></i>
+												</span>
+												<span>Стать постоянным покупателем (зарегистрироваться)</span>
+											</label>
+										</div>
+
+										<div class="input-2-col">
+											<div>
+												<input type="text" placeholder="Город" class="not-valid not-red" data-regexp="^[а-яё]{2,30}|[a-z]{2,30}$" required>
+											</div>
+											<div>
+												<input type="text" placeholder="Улица" class="not-valid not-red" data-regexp="^[а-яё]{2,30}|[a-z]{2,30}$" required>
+											</div>
+										</div>
+
+										<div class="input-2-col">
+											<div>
+												<input type="text" placeholder="Дом" class="not-valid not-red" data-regexp="^[0-9]{1,30}$" required>
+											</div>
+											<div>
+												<input type="text" placeholder="Квартира">
+											</div>
+										</div>
+
+										<input type="text" placeholder="Примечание к заказу">
+
+									</div>
+								</div>
+
+								<div class="param">
+									<div class="name"><h6>3. Способ оплаты</h6></div>
+
+									<div class="list">
+										
+										<label>
+											<input type="radio" name="payment" checked>
+											<span>Наличными или картой при получении</span>
+										</label>
+
+										<label>
+											<input type="radio" name="payment">
+											<span>Онлайн на сайте</span>
+										</label>
+
+									</div>
+								</div>
+
+								<!-- Отображается только на мобилке -->
+								<div class="param mobile">
+									<div class="name"><h6>4. Общая стоимость</h6></div>
+
+									<div class="cart-items">
+										
+										<div class="item">
+											<div class="photo">
+												<a href="#">
+													<div style="background-image: url('../assets/img/image-sale.jpg')"></div>
+												</a>
+											</div>
+											<div class="info">
+												<a href="#">
+													<h6 class="name">Базовый кроп-топ UV — Bretelle</h6>
+													<span class="color">
+														<span>Цвет:</span>
+														<span>Черный</span>
+													</span>
+
+													<span class="color">
+														<span>Размер:</span>
+														<span>M-L</span>
+													</span>
+													<div class="params">
+														<span>Количество: 1</span>
+
+														<div class="br_m"></div>
+
+														<span>2 000 ₽</span>
+													</div>
+												</a>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="photo">
+												<a href="#">
+													<div style="background-image: url('../assets/img/image-sale.jpg')"></div>
+												</a>
+											</div>
+											<div class="info">
+												<a href="#">
+													<h6 class="name">Базовый кроп-топ UV — Bretelle</h6>
+													<span class="color">
+														<span>Цвет:</span>
+														<span>Черный</span>
+													</span>
+
+													<span class="color">
+														<span>Размер:</span>
+														<span>M-L</span>
+													</span>
+													<div class="params">
+														<span>Количество: 1</span>
+
+														<div class="br_m"></div>
+
+														<span>900 ₽</span>
+													</div>
+												</a>
+											</div>
+										</div>
+
+										<div class="cart_price">
+											<div>
+												<span>Доставка:</span>
+												<span>
+													<span id="delivery">500</span> ₽
+												</span>
+											</div>
+											<div class="itogo">
+												<span>Итого:</span>
+												<span>
+													<span id="cart_summ">3 400</span> ₽
+												</span>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- end -->
+
+								<div class="param">
+									<button class="button-black" disabled><span>Перейти к оплате</span></button>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" name="accept" checked>
+											<span class="checkbox-icon">
+												<i class="icon icon-a-checkbox"></i>
+												<i class="icon icon-a-checkbox-checked checked"></i>
+											</span>
+											<span>Принимаю условия <a href="#" target="_blank">пользовательского соглашения</a></span>
+										</label>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-xl-5">
+						<!-- Отображается только на пк -->
+						<div class="cart-rb">
+
+							<div class="item">
+								<div class="photo">
+									<a href="#">
+										<div style="background-image: url('../assets/img/image-sale.jpg')"></div>
+									</a>
+								</div>
+								<div class="info">
+									<a href="#">
+										<h6 class="name">Базовый кроп-топ UV — Bretelle</h6>
+										<span class="color">
+											<span>Цвет:</span>
+											<span>Черный</span>
+										</span>
+
+										<span class="color">
+											<span>Размер:</span>
+											<span>M-L</span>
+										</span>
+										<div class="params">
+											<span>Количество: 1</span>
+
+											<div class="br_m"></div>
+
+											<span>2 000 ₽</span>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="photo">
+									<a href="#">
+										<div style="background-image: url('../assets/img/image-sale.jpg')"></div>
+									</a>
+								</div>
+								<div class="info">
+									<a href="#">
+										<h6 class="name">Базовый кроп-топ UV — Bretelle</h6>
+										<span class="color">
+											<span>Цвет:</span>
+											<span>Черный</span>
+										</span>
+
+										<span class="color">
+											<span>Размер:</span>
+											<span>M-L</span>
+										</span>
+										<div class="params">
+											<span>Количество: 1</span>
+
+											<div class="br_m"></div>
+
+											<span>900 ₽</span>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="cart_price">
+								<div>
+									<span>Товаров на сумму:</span>
+									<span>
+										<span id="summ">2 900</span> ₽
+									</span>
+								</div>
+								<div>
+									<span>Доставка:</span>
+									<span>
+										<span id="delivery">500</span> ₽
+									</span>
+								</div>
+								<div class="itogo">
+									<span>Итого:</span>
+									<span>
+										<span id="cart_summ">3 400</span> ₽
+									</span>
+								</div>
+							</div>	
+
+						</div>
+						<!--  -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+//= include/footer.html

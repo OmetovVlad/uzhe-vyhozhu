@@ -1,0 +1,173 @@
+//= include/header.html
+
+<div class="contacts-page content-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-3">
+				<div class="stick">
+					<div class="cut_list">
+						<div class="list">
+							<a href="/lk-personal_data.html">Личные данные</a>
+							<b>Адрес доставки</b>
+							<a href="/lk-orders.html">Заказы</a>
+							<a href="/lk-sub.html">Подписки</a>
+						</div>
+						<a href="#exit" class="button-border"><span>Выйти</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-9">
+				<div class="page-title">
+					<h4>Адрес доставки</h4>
+				</div>
+
+				<div class="min-content">
+					<div class="param">
+						<div class="input-2-col address">
+							<div>
+								<span>г. Томск, ул. Ленина, д. 12, кв. 34</span>
+							</div>
+							<div>
+								<span><a href="#" class="open-right-modal" data-id="edit-address-1">Редактировать</a></span>
+								<!--  в data-id задаем уникальное название. В формате edit-address-{id адреса} -->
+							</div>
+						</div>
+
+						<div class="input-2-col address">
+							<div>
+								<span>г. Томск, ул. Ленина, д. 12, кв. 34</span>
+							</div>
+							<div>
+								<span><a href="#" class="open-right-modal" data-id="edit-address-2">Редактировать</a></span>
+								<!--  в data-id задаем уникальное название. В формате edit-address-{id адреса} -->
+							</div>
+						</div>
+					</div>
+					
+					<div class="param">
+						<button class="button-border open-right-modal" data-id="add-address"><span>Добавить адрес</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- right-modals -->
+<!--  в id задаем уникальное название. В формате edit-address-{id адреса} -->
+<div id="edit-address-1" class="right-modal">
+	<button class="close">
+		<i class="icon icon-a-close"></i>
+	</button>
+
+	<h4>Адрес доставки</h4>
+
+	<form id="cart_form">
+		<div class="content">
+
+			<div class="input-2-col">
+				<div>
+					<input type="text" placeholder="Город" value="Томск">
+				</div>
+				<div>
+					<input type="text" placeholder="Улица" value="Ленина">
+				</div>
+			</div>
+
+			<div class="input-2-col">
+				<div>
+					<input type="text" placeholder="Дом" value="12">
+				</div>
+				<div>
+					<input type="text" placeholder="Квартира" value="34">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="bottom">
+			<button class="button-black w-100" type="submit" form="cart_form">
+				<span>Сохранить</span>
+			</button>
+		</div>
+	</form>
+</div>
+
+<!--  в id задаем уникальное название. В формате edit-address-{id адреса} -->
+<div id="edit-address-2" class="right-modal">
+	<button class="close">
+		<i class="icon icon-a-close"></i>
+	</button>
+
+	<h4>Адрес доставки</h4>
+
+	<form id="cart_form">
+		<div class="content">
+
+			<div class="input-2-col">
+				<div>
+					<input type="text" placeholder="Город" value="Томск">
+				</div>
+				<div>
+					<input type="text" placeholder="Улица" value="Ленина">
+				</div>
+			</div>
+
+			<div class="input-2-col">
+				<div>
+					<input type="text" placeholder="Дом" value="12">
+				</div>
+				<div>
+					<input type="text" placeholder="Квартира" value="34">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="bottom">
+			<button class="button-black w-100" type="submit" form="cart_form">
+				<span>Сохранить</span>
+			</button>
+		</div>
+	</form>
+</div>
+
+<div id="add-address" class="right-modal">
+	<button class="close">
+		<i class="icon icon-a-close"></i>
+	</button>
+
+	<h4>Адрес доставки</h4>
+
+	<form id="cart_form">
+		<div class="content">
+
+			<div class="input-2-col">
+				<div>
+					<input type="text" placeholder="Город">
+				</div>
+				<div>
+					<input type="text" placeholder="Улица">
+				</div>
+			</div>
+
+			<div class="input-2-col">
+				<div>
+					<input type="text" placeholder="Дом">
+				</div>
+				<div>
+					<input type="text" placeholder="Квартира">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="bottom">
+			<button class="button-black w-100" type="submit" form="cart_form">
+				<span>Добавить</span>
+			</button>
+		</div>
+	</form>
+</div>
+
+//= include/footer.html
